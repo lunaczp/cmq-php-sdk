@@ -1,10 +1,11 @@
 <?php
-require_once CMQAPI_ROOT_PATH . '/cmq_client.php';
-require_once CMQAPI_ROOT_PATH . '/queue.php';
+namespace Tencent\Cmq;
 
 /*
 Account 对象非线程安全，如果多线程使用，需要每个线程单独初始化Account对象类
 */
+
+
 class Account
 {
     private $secretId;

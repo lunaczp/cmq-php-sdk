@@ -1,4 +1,5 @@
 <?php
+namespace Tencent\Cmq;
 /**
  * Sign
  * 签名类

@@ -1,5 +1,5 @@
 <?php
-require_once CMQAPI_ROOT_PATH . '/cmq_exception.php';
+namespace Tencent\Cmq;
 
 class CMQHttp
 {

@@ -1,9 +1,12 @@
 <?php
-require_once '../cmq/cmq_api.php';
-require_once CMQAPI_ROOT_PATH . '/account.php';
-require_once CMQAPI_ROOT_PATH . '/topic.php';
-require_once CMQAPI_ROOT_PATH . '/subscription.php';
-require_once CMQAPI_ROOT_PATH . '/cmq_exception.php';
+
+use Tencent\Cmq\Account;
+use Tencent\Cmq\CMQExceptionBase;
+use Tencent\Cmq\SubscriptionMeta;
+use Tencent\Cmq\TopicMeta;
+
+require_once '../autoloader.php';
+
 /*
  * CMQ_V1.0.2 PHP Demo
  * 

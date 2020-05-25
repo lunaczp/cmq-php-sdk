@@ -8,5 +8,10 @@
             "email": "yorkxyzhang@tencent.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tencent\\": "./src/Tencent"
+        }
+    }
 }
